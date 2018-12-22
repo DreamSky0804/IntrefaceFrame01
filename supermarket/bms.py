@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
+
+println("HelloWorld")
 #增加商品
 def addtrade(trade,price):
     with open("trades.txt") as f:
