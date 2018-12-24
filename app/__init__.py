@@ -3,6 +3,6 @@
 
 from flask import Flask
 
-supermarket = Flask(__name__)
+app = Flask(__name__)
 
-from supermarket import views
+from app import views
