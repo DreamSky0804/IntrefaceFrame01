@@ -1,6 +1,6 @@
 import xlrd
 def getdata():
-    wk = xlrd.open_workbook("testcases/case.xlsx")
+    wk = xlrd.open_workbook("../testcases/case.xlsx")
     st = wk.sheet_by_name("Sheet1")
     rows = st.nrows
     cols = st.ncols
